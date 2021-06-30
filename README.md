@@ -13,7 +13,7 @@
 2- Change the directory to ssh using this command:
 
 ``` 
-cd ~/.ssh
+sudo apt install openssh-client && cd ~/.ssh
 ```
 ![img1](./assets/terminal2.png)
 
