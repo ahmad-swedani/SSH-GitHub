@@ -53,4 +53,20 @@ cat github_rsa.pub
 
 ![img1](./assets/github4.png)
 
+--- 
+
+### Enjoy using SSH no password any more 😎 🥳:
+
+> clone with SSH URL 
+
+---
+
+### `Important`: to change the remote from Https to SSH:
+
+open your repo and run this command
+
+```
+git remote set-url origin SSH-URL
+```
+
 ### Done
