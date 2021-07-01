@@ -10,14 +10,14 @@
 ![img1](./assets/terminal1.png)
 
 
-2- Change the directory to ssh using this command:
+<!-- 2- Change the directory to ssh using this command:
 
 ``` 
 sudo apt install openssh-client && cd ~/.ssh
 ```
-![img1](./assets/terminal2.png)
+![img1](./assets/terminal2.png) -->
 
-3- Create new SSH key using this command and press enter twice
+2- Create new SSH key using this command and press enter three times
 
 ```
 ssh-keygen -t rsa -f github_rsa
@@ -25,7 +25,7 @@ ssh-keygen -t rsa -f github_rsa
 ![img1](./assets/terminal3.png)
 
 
-4- open the "github_rsa.pub" with `cat` by this command and copy the key
+3- open the "github_rsa.pub" with `cat` by this command and copy the key
 
 ```
 cat github_rsa.pub
